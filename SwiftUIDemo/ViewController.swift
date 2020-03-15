@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("输出")
-        self .present(UIHostingController(rootView: MapCircleTextContentView()), animated: true) {
+        // MapCircleTextContentView
+        // LandmarkListView
+        self .present(UIHostingController(rootView: LandmarkListView()), animated: true) {
             
         }
     }
