@@ -14,6 +14,7 @@
 		219A8AB1241E3685008F5A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219A8AB0241E3685008F5A09 /* Assets.xcassets */; };
 		219A8AB4241E3685008F5A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219A8AB2241E3685008F5A09 /* LaunchScreen.storyboard */; };
 		219A8ABC241E3698008F5A09 /* SwiftUIDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */; };
+		219A8ABE241E3AE2008F5A09 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		219A8AB3241E3685008F5A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219A8AB5241E3685008F5A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoView.swift; sourceTree = "<group>"; };
+		219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				219A8AA9241E367F008F5A09 /* SceneDelegate.swift */,
 				219A8AAB241E367F008F5A09 /* ViewController.swift */,
 				219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */,
+				219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */,
 				219A8AAD241E367F008F5A09 /* Main.storyboard */,
 				219A8AB0241E3685008F5A09 /* Assets.xcassets */,
 				219A8AB2241E3685008F5A09 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				219A8AAC241E367F008F5A09 /* ViewController.swift in Sources */,
 				219A8AA8241E367F008F5A09 /* AppDelegate.swift in Sources */,
 				219A8AAA241E367F008F5A09 /* SceneDelegate.swift in Sources */,
+				219A8ABE241E3AE2008F5A09 /* CircleImageView.swift in Sources */,
 				219A8ABC241E3698008F5A09 /* SwiftUIDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
