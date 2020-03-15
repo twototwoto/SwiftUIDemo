@@ -13,30 +13,30 @@ struct LandMarkDetailView: View {
     var body: some View {
         
         VStack {
-            MapView(coordinate: landmarkData[0].locationCoordinate)
+            MapView(coordinate: landmark.locationCoordinate)
                 .frame(height:300)
                 .edgesIgnoringSafeArea(.top)
-            CircleImageView(image: Image("WYW"))
+            CircleImageView(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("WYW")
+                Text(landmark.park)
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color.blue)
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
                 HStack(alignment: .top) {
-                    Text("奇舞团iOS 开发")
+                    Text(landmark.name)
                         .font(.subheadline)
                     Spacer()
-                    Text("中国")
+                    Text(landmark.state)
                 }
             }
             .padding()
             
             Spacer()
-        }
+        }.navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
