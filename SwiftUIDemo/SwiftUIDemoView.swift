@@ -17,9 +17,14 @@ struct SwiftUIDemoView: View {
                 .foregroundColor(Color.blue)
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
-            Text("奇舞团 iOS 开发者")
-                .font(.subheadline)
+            HStack {
+                Text("奇舞团iOS 开发")
+                    .font(.subheadline)
+                Spacer()
+                Text("中国")
+            }
         }
+    .padding()
     }
 }
 
