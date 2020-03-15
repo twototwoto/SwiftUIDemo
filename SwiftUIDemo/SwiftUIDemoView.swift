@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SwiftUIDemoView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text("WYW")
                 .font(.title)
                 .fontWeight(.bold)
