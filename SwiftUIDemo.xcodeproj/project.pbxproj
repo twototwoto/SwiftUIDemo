@@ -35,6 +35,7 @@
 		219A8AEF241E4EEF008F5A09 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219A8AE2241E4EEE008F5A09 /* chilkoottrail.jpg */; };
 		219A8AF0241E4EEF008F5A09 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219A8AE3241E4EEE008F5A09 /* rainbowlake.jpg */; };
 		219A8AF2241E4F61008F5A09 /* WYW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219A8AF1241E4F61008F5A09 /* WYW.jpg */; };
+		219A8AF4241E5096008F5A09 /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8AF3241E5096008F5A09 /* LandmarkListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		219A8AE2241E4EEE008F5A09 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		219A8AE3241E4EEE008F5A09 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		219A8AF1241E4F61008F5A09 /* WYW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WYW.jpg; sourceTree = "<group>"; };
+		219A8AF3241E5096008F5A09 /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				219A8AD3241E4C22008F5A09 /* Models */,
 				219A8ACB241E4542008F5A09 /* LandMarkDetailView.swift */,
 				219A8ACF241E45F8008F5A09 /* LandmarkRow.swift */,
+				219A8AF3241E5096008F5A09 /* LandmarkListView.swift */,
 			);
 			path = "Building Lists and Navigation";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				219A8AAA241E367F008F5A09 /* SceneDelegate.swift in Sources */,
 				219A8ABE241E3AE2008F5A09 /* CircleImageView.swift in Sources */,
 				219A8AD0241E45F8008F5A09 /* LandmarkRow.swift in Sources */,
+				219A8AF4241E5096008F5A09 /* LandmarkListView.swift in Sources */,
 				219A8ABC241E3698008F5A09 /* SwiftUIDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
