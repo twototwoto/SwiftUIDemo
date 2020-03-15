@@ -1,5 +1,5 @@
 //
-//  SwiftUIDemoView.swift
+//  MapCircleTextContentView.swift
 //  SwiftUIDemo
 //
 //  Created by 王永旺永旺 on 2020/3/15.
@@ -8,9 +8,16 @@
 
 import SwiftUI
 
-struct SwiftUIDemoView: View {
+struct MapCircleTextContentView: View {
     var body: some View {
+        
         VStack {
+            MapView()
+                .frame(height:300)
+                .edgesIgnoringSafeArea(.top)
+            CircleImageView()
+                .offset(y: -130)
+                .padding(.bottom, -130)
             VStack(alignment: .leading) {
                 Text("WYW")
                     .font(.title)
@@ -18,7 +25,7 @@ struct SwiftUIDemoView: View {
                     .foregroundColor(Color.blue)
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
-                HStack {
+                HStack(alignment: .top) {
                     Text("奇舞团iOS 开发")
                         .font(.subheadline)
                     Spacer()
@@ -26,12 +33,14 @@ struct SwiftUIDemoView: View {
                 }
             }
             .padding()
+            
+            Spacer()
         }
     }
 }
 
-struct SwiftUIDemoView_Previews: PreviewProvider {
+struct MapCircleTextContentView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIDemoView()
+        MapCircleTextContentView()
     }
 }

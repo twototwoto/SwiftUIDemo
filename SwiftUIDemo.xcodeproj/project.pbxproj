@@ -16,6 +16,7 @@
 		219A8ABC241E3698008F5A09 /* SwiftUIDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */; };
 		219A8ABE241E3AE2008F5A09 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */; };
 		219A8AC2241E3DD0008F5A09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8AC1241E3DD0008F5A09 /* MapView.swift */; };
+		219A8AC4241E3FD7008F5A09 /* MapCircleTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A8AC3241E3FD7008F5A09 /* MapCircleTextContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoView.swift; sourceTree = "<group>"; };
 		219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		219A8AC1241E3DD0008F5A09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		219A8AC3241E3FD7008F5A09 /* MapCircleTextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCircleTextContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */,
 				219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */,
 				219A8AC1241E3DD0008F5A09 /* MapView.swift */,
+				219A8AC3241E3FD7008F5A09 /* MapCircleTextContentView.swift */,
 				219A8AAD241E367F008F5A09 /* Main.storyboard */,
 				219A8AB0241E3685008F5A09 /* Assets.xcassets */,
 				219A8AB2241E3685008F5A09 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				219A8AAC241E367F008F5A09 /* ViewController.swift in Sources */,
+				219A8AC4241E3FD7008F5A09 /* MapCircleTextContentView.swift in Sources */,
 				219A8AC2241E3DD0008F5A09 /* MapView.swift in Sources */,
 				219A8AA8241E367F008F5A09 /* AppDelegate.swift in Sources */,
 				219A8AAA241E367F008F5A09 /* SceneDelegate.swift in Sources */,
