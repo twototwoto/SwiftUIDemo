@@ -64,19 +64,27 @@
 		219A8AA6241E367F008F5A09 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				219A8AC5241E4356008F5A09 /* Creating and Combining Views */,
 				219A8AA7241E367F008F5A09 /* AppDelegate.swift */,
 				219A8AA9241E367F008F5A09 /* SceneDelegate.swift */,
 				219A8AAB241E367F008F5A09 /* ViewController.swift */,
-				219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */,
-				219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */,
-				219A8AC1241E3DD0008F5A09 /* MapView.swift */,
-				219A8AC3241E3FD7008F5A09 /* MapCircleTextContentView.swift */,
 				219A8AAD241E367F008F5A09 /* Main.storyboard */,
 				219A8AB0241E3685008F5A09 /* Assets.xcassets */,
 				219A8AB2241E3685008F5A09 /* LaunchScreen.storyboard */,
 				219A8AB5241E3685008F5A09 /* Info.plist */,
 			);
 			path = SwiftUIDemo;
+			sourceTree = "<group>";
+		};
+		219A8AC5241E4356008F5A09 /* Creating and Combining Views */ = {
+			isa = PBXGroup;
+			children = (
+				219A8ABB241E3698008F5A09 /* SwiftUIDemoView.swift */,
+				219A8ABD241E3AE2008F5A09 /* CircleImageView.swift */,
+				219A8AC1241E3DD0008F5A09 /* MapView.swift */,
+				219A8AC3241E3FD7008F5A09 /* MapCircleTextContentView.swift */,
+			);
+			path = "Creating and Combining Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
