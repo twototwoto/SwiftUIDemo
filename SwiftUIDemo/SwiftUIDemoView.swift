@@ -10,12 +10,16 @@ import SwiftUI
 
 struct SwiftUIDemoView: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
-            .font(.largeTitle)
-            .fontWeight(.bold)
-            .foregroundColor(Color.blue)
-            .multilineTextAlignment(.leading)
-            .lineLimit(2)
+        VStack {
+            Text("WYW")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.blue)
+                .multilineTextAlignment(.leading)
+                .lineLimit(2)
+            Text("奇舞团 iOS 开发者")
+                .font(.subheadline)
+        }
     }
 }
 
