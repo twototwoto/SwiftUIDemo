@@ -15,7 +15,7 @@ struct MapCircleTextContentView: View {
             MapView()
                 .frame(height:300)
                 .edgesIgnoringSafeArea(.top)
-            CircleImageView()
+            CircleImageView(image: Image("WYW"))
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
