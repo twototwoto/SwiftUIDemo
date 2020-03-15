@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct LandMarkDetailView: View {
+    var landmark: Landmark
     var body: some View {
         
         VStack {
-            MapView()
+            MapView(coordinate: landmarkData[0].locationCoordinate)
                 .frame(height:300)
                 .edgesIgnoringSafeArea(.top)
             CircleImageView(image: Image("WYW"))
@@ -41,6 +42,6 @@ struct LandMarkDetailView: View {
 
 struct LandMarkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        LandMarkDetailView()
+        LandMarkDetailView(landmark: landmarkData[0])
     }
 }

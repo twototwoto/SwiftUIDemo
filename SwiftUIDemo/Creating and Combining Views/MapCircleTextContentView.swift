@@ -12,7 +12,7 @@ struct MapCircleTextContentView: View {
     var body: some View {
         
         VStack {
-            MapView()
+            MapView(coordinate: landmarkData[0].locationCoordinate)
                 .frame(height:300)
                 .edgesIgnoringSafeArea(.top)
             CircleImageView(image: Image("WYW"))

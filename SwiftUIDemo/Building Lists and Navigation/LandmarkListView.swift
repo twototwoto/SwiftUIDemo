@@ -13,7 +13,7 @@ struct LandmarkListView: View {
         VStack {
             NavigationView {
                 List(landmarkData) { landmark in
-                    NavigationLink(destination: LandMarkDetailView()) {
+                    NavigationLink(destination: LandMarkDetailView(landmark: landmarkData[0])) {
                         LandmarkRow(landmark: landmark)
                     }
                 }.navigationBarTitle(Text("Landmarks"))
