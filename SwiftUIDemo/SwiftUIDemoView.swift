@@ -11,6 +11,11 @@ import SwiftUI
 struct SwiftUIDemoView: View {
     var body: some View {
         Text("Hello, SwiftUI!")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .foregroundColor(Color.blue)
+            .multilineTextAlignment(.leading)
+            .lineLimit(2)
     }
 }
 
